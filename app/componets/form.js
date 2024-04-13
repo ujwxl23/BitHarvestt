@@ -6,7 +6,7 @@ import { getDatabase, ref, push } from "firebase/database";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export default function ModalTable() {
+export default function Form() {
   const firebaseConfig = {
     apiKey: "AIzaSyAXHbnL5VwCvF9GTUATuNxWD0W_vyqgOZE",
     authDomain: "bitharvest-191db.firebaseapp.com",
